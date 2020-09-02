@@ -25,7 +25,17 @@ let package = Package(
                     "t_timer.c",
                     "t_units.c",
                     "t_uuid.c",
-                    "main.c"
+                    "main.c",
+                    "iperf3.1",
+                    "Makefile.am",
+                    "private.pem",
+                    "Makefile.in",
+                    "libiperf.3",
+                    "version.h.in",
+                    "iperf_config.h.in",
+                    "public.pem",
+                    "Makefile",
+                    "stamp-h1"
                     ]
         ),
         .target(

@@ -7,6 +7,14 @@ final class iPerfSwiftTests: XCTestCase {
         // Use XCTAssert and related functions to verify your tests produce the correct
         // results.
 
+        guard let test = Test() else {
+            XCTFail("Failed to create test!")
+            return
+        }
+
+        test.role = .server
+
+
     }
 
     static var allTests = [
