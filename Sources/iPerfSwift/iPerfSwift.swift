@@ -1,3 +1,5 @@
-struct iPerfSwift {
-    var text = "Hello, World!"
+import iperf
+
+struct Test {
+    let name = "name"
 }
